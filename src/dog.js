@@ -24,10 +24,4 @@ class Dog {
     tr.append(name, breed, sex, editOuter)
     return tr
   }
-
-  refreshDog() {
-    let oldDog = document.querySelector(`#dog-${this.id}`)
-    const newDog = this.tableData
-    oldDog = newDog
-  }
 }
